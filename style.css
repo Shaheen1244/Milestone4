@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(120deg, rgba(255,255,255));
+    color: beige;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+form{
+background-color:#00b6c4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rbga(0,0,0,0.15);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+
+    transition: transform 0.3s;
+}
+
+form:hover{
+    transform: translateY(-5px);
+}
+
+form h2 {
+    color: beige;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+input[type ="text"],
+input[type= "email"]{
+    width: 50%;
+    padding: 12px;
+    margin-right: 20px;
+    
+    border:1px solid white centre;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s;
+    
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+border-color: grey;
+}
+button {
+    background-color: khaki;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button :hover{
+    background-color: coral;
+}
+
+#resumeOutput {
+    margin-top: 30px;
+    background-color: #3a3939;
+padding: 20px;
+border-radius: 30px;
+box-shadow: 0 10px 30px rgba(17, 14, 189, 0.356);
+max-width: 600px;
+width: 500px;
+}
+#resumeOutput h2 {
+    color: #00b6c4;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#resumeOutput p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+#resumeOutput strong{
+    color: #00b6c4;
+}
+#editResume{
+    background-color: #333;
+    color: thistle;
+    padding: 10px 20px;
+    border-radius: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+#editResume:hover{
+    background-color: #ccc;
+}
+
+
